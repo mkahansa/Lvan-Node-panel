@@ -1,6 +1,6 @@
-# 🚀 Marzban-node روی Railway (روش PasarGuard-Node)
+# 🚀 Lvan-node روی Railway (روش PasarGuard-Node)
 
-مثل `PasarGuard-Node`، این ریپو سورس Marzban-node را کپی نمی‌کند؛ `Dockerfile`
+مثل `PasarGuard-Node`، این ریپو سورس Lvan-node را کپی نمی‌کند؛ `Dockerfile`
 در لحظه‌ی build از
 [`Gozargah/Marzban-node`](https://github.com/Gozargah/Marzban-node) کلون
 می‌کند و سپس دو پچ کوچک (دقیقاً به سبک پچ‌های PasarGuard) رویش می‌زند تا با
@@ -15,7 +15,7 @@ Railway سازگار شود:
 
 1. این ریپو را Fork کنید.
 2. در Railway یک سرویس جدید از روی این ریپو بسازید.
-3. بعد از Deploy، آدرس (host) و پورت این سرویس روی Railway را در پنل Marzban،
+3. بعد از Deploy، آدرس (host) و پورت این سرویس روی Railway را در پنل Lvan،
    قسمت **Node Settings**، به‌عنوان یک نود جدید اضافه کنید.
 4. اگر ترجیح می‌دهید نود خودش TLS را مدیریت کند (حالت اصلی و امن‌تر upstream)،
    متغیرهای زیر را ست کنید:
@@ -25,4 +25,4 @@ Railway سازگار شود:
 ## به‌روزرسانی
 
 چون سورس در build-time کلون می‌شود، کافیست دوباره روی Railway Deploy بزنید تا
-آخرین نسخه‌ی Marzban-node گرفته شود؛ نیازی به sync دستی فایل‌ها نیست.
+آخرین نسخه‌ی Lvan-node گرفته شود؛ نیازی به sync دستی فایل‌ها نیست.
